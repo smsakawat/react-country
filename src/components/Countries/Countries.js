@@ -10,8 +10,8 @@ const Countries = () => {
     }, [])
 
     return (
-        <div className='container'>
-            <h1 className='title'>Explore all countries around the world!</h1>
+        <div className='main-container'>
+            <h1 className='title my-4'>Explore all countries around the world!</h1>
             <div className='country-container'>
                 {
                     countries.map(country => <Country
