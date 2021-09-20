@@ -1,0 +1,27 @@
+.nav-container {
+  height: 76px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(26, 23, 23);
+  color: #ccc;
+}
+.navbar {
+  width: 89%;
+  margin: 0 auto;
+  padding: 3px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  justify-self: flex-end;
+}
+.navbar ul > li {
+  list-style: none;
+  padding-right: 25px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+}

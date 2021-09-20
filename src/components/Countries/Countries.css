@@ -1,0 +1,25 @@
+.container {
+  background-color: #f4f4f4;
+  margin-top: 0;
+  padding: 0;
+  overflow: auto;
+}
+.country-container {
+  padding: 10px 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.title {
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .country-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 568px) {
+  .country-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
